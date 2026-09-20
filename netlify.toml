@@ -9,4 +9,4 @@
   node_bundler = "esbuild"
 
 [functions."refresh-x-count"]
-  schedule = "0 */6 * * *"
+  schedule = "0 * * * *"
