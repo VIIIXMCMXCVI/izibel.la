@@ -1,4 +1,4 @@
-# Bella's website — Netlify setup
+# izibel.la
 
 Your original design and links are preserved. The X card replaces “NSFW 18+ MDNI” with the real post count after its first successful fetch. Until the API is working, the original label stays in place. A Netlify scheduled function saves the count in Netlify Blobs every 6 hours; visitors only read that saved value and never trigger paid X requests. Counts older than 48 hours are labeled “last recorded.”
 
